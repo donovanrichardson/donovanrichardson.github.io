@@ -22,9 +22,13 @@
     <h1 class="text-center">Donovan Richardson</h1>
 
     <!-- <p>I am a software engineer. This is my personal website.</p> -->
-    <h4 class="text-center">
-      I am a software engineer. This is my personal website.
-    </h4>
+    <div class="container">
+        <div class="row justify-content-center">
+            <p class="text-center col col-lg-8">
+              Donovan is a software engineer based in the New York City area. He is skilled in web development, database design, and GIS. He enjoys all sorts of maps and has an on-again, off-again relationship with his e-bike.
+            </p>
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-light ">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -41,23 +45,73 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav-fill w-100">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/donovanrichardson/"
+              >GitHub </a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Resume</a>
           </li>
         </ul>
       </div>
     </nav>
+    <div id="projects">
+      <div class="container">
+        <div class="row justify-content-around project-row">
+          <div class="col-12 col-lg-4">
+            <div class='project container'>
+              <div class="row">
+                <h4 class="col text-center">
+                  Deparch
+                </h4>
+              </div>
+              <div class="row">
+                <p class="col">
+                  Departure timetables for various transit agencies. Choose a date, origin, and destination, and see a list table of all departures. Uses PostgreSQL databases and data GTFS feeds from various agencies.
+                </p>
+              </div>
+              <div class="row">
+                <div class='col'>
+                  <div class="container">
+                    <div class="row">
+                      <h6 class="col text-center">
+                        Back
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class='col'>
+                  <div class="container">
+                    <div class="row">
+                      <h6 class="col text-center">
+                        Front
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class='col'>
+                  <div class="container">
+                    <div class="row">
+                      <h6 class="col text-center">
+                        Live
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
