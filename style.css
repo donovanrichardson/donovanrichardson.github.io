@@ -15,12 +15,23 @@ h4{
 }
 
 
-.navbar-nav li{
-    margin: 1em;
+.mynav .nav-col > div{
+    
     background-color:#a4a0cf;
-    font-variant: small-caps;
     border-radius: 1em;
 }
+
+.mynav .nav-col{
+    padding: 0 1em;
+    margin: .5em 0;
+    font-variant: small-caps;
+}
+
+.nav-col .nav-link{
+    color:rgba(0,0,0,.70);
+}
+
+
 
 #project-header{
     margin: 2em 0 1em 0;
