@@ -4,6 +4,9 @@
 
 body{
     margin:3em 1em;
+    background:url("https://res.cloudinary.com/donovanrichardson/image/upload/e_colorize:85,co_rgb:ffffff/v1611022741/Markus%20Spiske-Transalp%20Ballooning%20%E2%80%93%20Panoramic%20view%20at%205800%20meters.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 h1{
@@ -38,17 +41,34 @@ h4{
     /* margin:4em; */
 }
 
+.project-title{
+    padding-top: .5em;
+}
+
+a{
+    color:black;
+}
+
 .project{
     /* border:1px solid black; */
     height:100%;
     margin: .25em 0;
-    border-radius: .25em;
+    border-radius: .5em;
     background-color: #a4a0cf;
 }
 .project-row > *{
-    border:1px solid black;
+    /* border:1px solid black; */
     /* margin: .25em 0; */
 }
 .col-lg-6{
     padding: 15px
+}
+
+img{
+    padding:1em;
+    border-radius: 2em;
+}
+
+.icon{
+    display:none;
 }
